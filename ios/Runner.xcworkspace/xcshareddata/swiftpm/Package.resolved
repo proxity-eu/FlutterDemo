@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "ProxityKit",
+        "repositoryURL": "https://github.com/proxity-eu/ProxityKit",
+        "state": {
+          "branch": "main",
+          "revision": "fb8ef0963a4dfb46b04112835e039373f8182c0f",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}
