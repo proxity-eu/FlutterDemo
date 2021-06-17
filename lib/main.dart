@@ -1,3 +1,6 @@
+// Copyright 2021 Proxity SA
+// https://www.proxity.eu/
+
 import 'dart:convert';
 
 import 'package:flutter/material.dart';
