@@ -44,7 +44,7 @@ android {
     defaultConfig {
         // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
         applicationId "com.example.supsi_demo"
-        minSdkVersion 16
+        minSdkVersion 28
         targetSdkVersion 30
         versionCode flutterVersionCode.toInteger()
         versionName flutterVersionName
@@ -63,7 +63,13 @@ flutter {
     source '../..'
 }
 
+def kotlin_coroutinesVersion = "1.2.1"
+
 dependencies {
+
+    api 'com.google.android.gms:play-services-location:15.0.1'
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:$kotlin_coroutinesVersion"
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:$kotlin_coroutinesVersion"
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
     implementation files('../libs/ProxityClient-debug.aar')
 }
